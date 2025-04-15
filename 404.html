@@ -1,0 +1,7 @@
+<script>
+  const path = window.location.pathname;
+  const base = "/dev";
+  const redirect = base + "/index.html";
+  sessionStorage.redirect = path + location.search;
+  window.location.replace(redirect);
+</script>
